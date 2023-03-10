@@ -1,18 +1,303 @@
-.btn {
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  cursor: pointer;
-  text-align: center;
-  font-size: 16px;
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+.rectangle-parent {
+  width: 400px;
+  height: 500px;
 }
 
-/* Style the container */
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 54px 2px rgba(0, 0, 0, 0.15);
+  width: 443px;
+  height: 714px;
+}
+.you-will-save {
+  margin: 0;
+  position: absolute;
+  top: 579px;
+  left: 34px;
+  color: var(--color-dimgray-200);
+}
+.group-inner,
+.group-item {
+  border: 0;
+  position: absolute;
+}
+.group-item {
+  background-color: transparent;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  top: 108px;
+  left: 137px;
+  width: 170px;
+  height: 39px;
+}
+.group-inner {
+  cursor: pointer;
+  padding: 0;
+  background-color: #4caf50;
+  top: 661px;
+  left: 34px;
+  border-radius: var(--br-md);
+  width: 376px;
+  height: 34px;
+  color: white;
+}
+.group-inner:hover{
+  background-color: #1c571e;
+}
+.save-now {
+  position: absolute;
+  top: 670px;
+  left: 144px;
+  font-size: 13px;
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 156px;
+}
+.ellipse-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 46px;
+  height: 46px;
+}
+.junk-mails-found,
+.spam-folder {
+  position: absolute;
+  top: 5px;
+  left: 65px;
+}
+.spam-folder {
+  top: 30px;
+  left: 87px;
+  font-size: var(--font-size-xs);
+  color: var(--color-dimgray-100);
+}
+.rectangle-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-cornflowerblue);
+  position: absolute;
+  top: 6px;
+  left: 294px;
+  border-radius: var(--br-md);
+  width: 82px;
+  height: 34px;
+  color:white;
+}
+.rectangle-button:hover{
+  background-color: #315495;
+}
+.view-all {
+  position: absolute;
+  top: 16px;
+  left: 315px;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+/* .view-all:hover{
+  background-color: #315495;
+} */
+.vector-icon {
+  position: absolute;
+  height: 66.67%;
+  width: 83.33%;
+  top: 16.67%;
+  right: 8.33%;
+  bottom: 16.67%;
+  left: 8.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.material-symbolsfolder,
+.mdialert-icon {
+  position: absolute;
+  top: 26px;
+  left: 64px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.mdialert-icon {
+  top: 10px;
+  left: 11px;
+  width: 24px;
+  height: 24px;
+}
+.ellipse-parent {
+  position: absolute;
+  top: 263px;
+  left: 34px;
+  width: 376px;
+  height: 46px;
+}
+.already-read-mail,
+.group-child2 {
+  position: absolute;
+  top: 6px;
+  left: 65px;
+}
+
+
+
+.ellipse-group {
+  position: absolute;
+  top: 338px;
+  left: 34px;
+  width: 376px;
+  height: 46px;
+}
+.social {
+  position: absolute;
+  top: 30px;
+  left: 89px;
+  font-size: var(--font-size-xs);
+  color: var(--color-dimgray-100);
+}
+.material-symbolsfolder-icon {
+  position: absolute;
+  top: 26px;
+  left: 66px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.ellipse-container,
+.group-icon {
+  position: absolute;
+  top: 413px;
+  left: 34px;
+  width: 376px;
+  height: 46px;
+}
+.group-icon {
+  top: 25px;
+  left: 187px;
+  width: 70px;
+  height: 70px;
+}
+.icon-park-solidcorrect {
+  position: absolute;
+  top: 8px;
+  left: 9px;
+  width: 33px;
+  height: 33px;
+  overflow: hidden;
+}
+.group-child7,
+.group-div {
+  position: absolute;
+  top: 488px;
+  left: 34px;
+  width: 376px;
+  height: 46px;
+}
+.group-child7 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #979797;
+  top: 2px;
+  left: 294px;
+  border-radius: var(--br-md);
+  width: 82px;
+  height: 34px;
+}
+.filter {
+  position: absolute;
+  top: 12px;
+  left: 311px;
+}
+.material-symbolsarrow-drop-do-icon {
+  position: absolute;
+  top: 0;
+  left: 334px;
+  width: 36px;
+  height: 36px;
+  overflow: hidden;
+}
+.div {
+  position: absolute;
+  top: 8px;
+  left: 42px;
+}
+.material-symbolsmail-rounded-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 33px;
+  height: 33px;
+  overflow: hidden;
+}
+.parent,
+.rectangle-group {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 222px;
+  height: 33px;
+  font-size: var(--font-size-base);
+  color: var(--color-dimgray-200);
+}
+.rectangle-group {
+  top: 187px;
+  left: 34px;
+  width: 376px;
+  height: 36px;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+.gb-of-storage {
+  position: absolute;
+  top: 5px;
+  left: 31px;
+}
+.gm1 {
+  font-size: var(--font-size-xs);
+}
+.gm {
+  position: absolute;
+  top: 5px;
+  left: 346px;
+}
+.carboncarbon-accounting-icon,
+.material-symbolshome-storage-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 27px;
+  height: 27px;
+  overflow: hidden;
+}
+.carboncarbon-accounting-icon {
+  top: 2px;
+  left: 319px;
+  width: 25px;
+  height: 25px;
+}
+.gb-of-storage-parent {
+  position: absolute;
+  top: 615px;
+  left: 30px;
+  width: 380px;
+  height: 27px;
+}
+.rectangle-parent {
+  position: relative;
+  width: 100%;
+  height: 714px;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inter);
 }
