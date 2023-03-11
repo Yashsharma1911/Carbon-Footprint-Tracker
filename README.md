@@ -29,6 +29,7 @@ Here are some screenshots of the project
 </div>
 
 
+
 ## Installation
 To install the Browser Extension for Tracing Carbon Footprint of Email Accounts, follow these steps:
 
