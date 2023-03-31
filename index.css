@@ -1,0 +1,21 @@
+.btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+  }
+  .btn:hover{
+    background-color: #1c571e;
+  }
+  /* Style the container */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
