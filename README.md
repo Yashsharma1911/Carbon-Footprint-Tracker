@@ -39,8 +39,7 @@ To install the Browser Extension for Tracing Carbon Footprint of Email Accounts,
 * The extension will automatically track the carbon footprint of your email account.
 
 ## Contributors
-This project was created by Manav Mandal, Yash Sharma, Khushi Agarwal and Anushka Saxena for the Social Impact Projects for January-March 2023 cohort. Suggestions & contributions are welcome.
-
+This project was created by Manav Mandal, Yash Sharma, Khushi Agarwal and Anushka Saxena
 
 
 
